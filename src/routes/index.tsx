@@ -176,11 +176,11 @@ function LandingPage() {
               A solução definitiva
             </span>
             <h2 className="text-3xl sm:text-4xl font-black">
-              Conheça o poder do <span className="text-primary">Organic Sier</span>
+              Conheça o poder do <span className="text-primary">Organic Care</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Uma fórmula rica em óleos vegetais, biotina e queratina vegetal que age nos 3
-              principais problemas capilares.
+              Fórmula enriquecida com extratos naturais, biotina e D-pantenol que age nos 3
+              principais problemas capilares — fortalecimento real desde a raiz.
             </p>
           </div>
 
