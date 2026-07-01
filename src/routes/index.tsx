@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroImg from "@/assets/organic-hero.png";
+import heroImg from "@/assets/organic-care-hero.png";
 import {
   ShieldCheck,
   Truck,
@@ -30,7 +30,7 @@ function useCountdown(minutes: number) {
   return `${m}:${s}`;
 }
 
-function CTA({ label = "QUERO MEU ORGANIC SIER" }: { label?: string }) {
+function CTA({ label = "QUERO MEU ORGANIC CARE" }: { label?: string }) {
   return (
     <a
       href="#pedido"
@@ -83,9 +83,9 @@ function LandingPage() {
                 <span className="text-secondary">30 dias</span>.
               </h1>
               <p className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-                O tratamento <strong>Organic Sier</strong> combina óleos naturais e ativos
-                nutritivos para <strong>reconstruir seus fios de dentro pra fora</strong> — sem
-                química agressiva, sem promessa vazia.
+                O <strong>Organic Care — Suporte Ativo</strong> é um condicionador
+                fortalecedor com extratos naturais, biotina e D-pantenol para
+                <strong>fios mais fortes, saudáveis e brilhantes</strong> — sem sal, uso diário.
               </p>
 
               <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
@@ -118,7 +118,7 @@ function LandingPage() {
               <div className="absolute -inset-8 bg-green-gradient rounded-full blur-3xl opacity-30" />
               <img
                 src={heroImg}
-                alt="Organic Sier - Tratamento capilar natural"
+                alt="Organic Care - Condicionador Fortalecedor"
                 className="relative w-full max-w-lg mx-auto animate-float drop-shadow-2xl"
               />
             </div>
@@ -176,11 +176,11 @@ function LandingPage() {
               A solução definitiva
             </span>
             <h2 className="text-3xl sm:text-4xl font-black">
-              Conheça o poder do <span className="text-primary">Organic Sier</span>
+              Conheça o poder do <span className="text-primary">Organic Care</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Uma fórmula rica em óleos vegetais, biotina e queratina vegetal que age nos 3
-              principais problemas capilares.
+              Fórmula enriquecida com extratos naturais, biotina e D-pantenol que age nos 3
+              principais problemas capilares — fortalecimento real desde a raiz.
             </p>
           </div>
 
@@ -299,10 +299,10 @@ function LandingPage() {
                 <Clock className="h-5 w-5" /> Últimas unidades em estoque
               </div>
 
-              <img src={heroImg} alt="Organic Sier" className="w-56 mx-auto" />
+              <img src={heroImg} alt="Organic Care" className="w-56 mx-auto" />
 
               <h3 className="text-2xl sm:text-3xl font-black">
-                Kit Organic Sier — Tratamento Completo
+                Organic Care — Suporte Ativo 200ml
               </h3>
 
               <div className="space-y-1">
@@ -317,8 +317,7 @@ function LandingPage() {
 
               <ul className="text-left max-w-md mx-auto space-y-2">
                 {[
-                  "1x Organic Sier Máscara Reconstrutora",
-                  "1x Sérum Fortalecedor",
+                  "1x Organic Care Condicionador 200ml — Suporte Ativo",
                   "Frete GRÁTIS para todo o Brasil",
                   "Garantia de 30 dias ou seu dinheiro de volta",
                   "Pagamento SOMENTE na entrega",
@@ -415,7 +414,7 @@ function LandingPage() {
               },
               {
                 q: "O produto é natural mesmo?",
-                a: "Sim! Organic Sier é formulado com óleos vegetais, biotina e queratina vegetal. Sem parabenos e sem sulfatos agressivos.",
+                a: "Sim! Organic Care é formulado com extratos naturais, biotina e D-pantenol. Sem sal, uso diário e livre de agressores químicos.",
               },
               {
                 q: "Preciso usar por quanto tempo para ver resultado?",
@@ -444,13 +443,13 @@ function LandingPage() {
       {/* Footer */}
       <footer className="bg-hero text-primary-foreground py-10">
         <div className="container mx-auto px-4 text-center space-y-2">
-          <div className="font-black text-xl">Organic Sier</div>
+          <div className="font-black text-xl">Organic Care</div>
           <p className="text-sm opacity-80 max-w-md mx-auto">
-            Tratamento capilar natural. Pagamento somente na entrega. Frete grátis para todo o
+            Condicionador fortalecedor natural. Pagamento somente na entrega. Frete grátis para todo o
             Brasil.
           </p>
           <p className="text-xs opacity-60 pt-4">
-            © {new Date().getFullYear()} Organic Sier. Todos os direitos reservados.
+            © {new Date().getFullYear()} Organic Care. Todos os direitos reservados.
           </p>
         </div>
       </footer>
