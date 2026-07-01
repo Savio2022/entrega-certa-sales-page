@@ -317,8 +317,7 @@ function LandingPage() {
 
               <ul className="text-left max-w-md mx-auto space-y-2">
                 {[
-                  "1x Organic Sier Máscara Reconstrutora",
-                  "1x Sérum Fortalecedor",
+                  "1x Organic Care Condicionador 200ml — Suporte Ativo",
                   "Frete GRÁTIS para todo o Brasil",
                   "Garantia de 30 dias ou seu dinheiro de volta",
                   "Pagamento SOMENTE na entrega",
