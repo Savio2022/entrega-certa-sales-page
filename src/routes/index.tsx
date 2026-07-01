@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { } from "react";
+import { useEffect, useState } from "react";
 import heroImg from "@/assets/organic-care-hero.png";
 import {
   ShieldCheck,
