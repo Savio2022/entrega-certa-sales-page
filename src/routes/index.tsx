@@ -299,10 +299,10 @@ function LandingPage() {
                 <Clock className="h-5 w-5" /> Últimas unidades em estoque
               </div>
 
-              <img src={heroImg} alt="Organic Sier" className="w-56 mx-auto" />
+              <img src={heroImg} alt="Organic Care" className="w-56 mx-auto" />
 
               <h3 className="text-2xl sm:text-3xl font-black">
-                Kit Organic Sier — Tratamento Completo
+                Organic Care — Suporte Ativo 200ml
               </h3>
 
               <div className="space-y-1">
