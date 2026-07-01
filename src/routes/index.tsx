@@ -83,9 +83,9 @@ function LandingPage() {
                 <span className="text-secondary">30 dias</span>.
               </h1>
               <p className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-                O tratamento <strong>Organic Sier</strong> combina óleos naturais e ativos
-                nutritivos para <strong>reconstruir seus fios de dentro pra fora</strong> — sem
-                química agressiva, sem promessa vazia.
+                O <strong>Organic Care — Suporte Ativo</strong> é um condicionador
+                fortalecedor com extratos naturais, biotina e D-pantenol para
+                <strong>fios mais fortes, saudáveis e brilhantes</strong> — sem sal, uso diário.
               </p>
 
               <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
