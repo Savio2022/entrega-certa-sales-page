@@ -30,7 +30,7 @@ function useCountdown(minutes: number) {
   return `${m}:${s}`;
 }
 
-function CTA({ label = "QUERO MEU ORGANIC SIER" }: { label?: string }) {
+function CTA({ label = "QUERO MEU ORGANIC CARE" }: { label?: string }) {
   return (
     <a
       href="#pedido"
