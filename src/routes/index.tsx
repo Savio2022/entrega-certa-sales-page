@@ -56,7 +56,16 @@ function LandingPage() {
   const timer = useCountdown(14);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="relative min-h-screen bg-background text-foreground">
+      {/* Product translucent background */}
+      <div
+        className="fixed inset-0 z-0 pointer-events-none bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${heroImg})`,
+          opacity: 0.06,
+          filter: "blur(2px)",
+        }}
+      />
       {/* Top bar */}
       <div className="bg-hero text-primary-foreground text-center py-2 px-4 text-xs sm:text-sm font-semibold">
         🚚 FRETE GRÁTIS PARA TODO O BRASIL • 💵 PAGAMENTO SOMENTE NA ENTREGA
