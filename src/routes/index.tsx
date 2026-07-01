@@ -118,7 +118,7 @@ function LandingPage() {
               <div className="absolute -inset-8 bg-green-gradient rounded-full blur-3xl opacity-30" />
               <img
                 src={heroImg}
-                alt="Organic Sier - Tratamento capilar natural"
+                alt="Organic Care - Condicionador Fortalecedor"
                 className="relative w-full max-w-lg mx-auto animate-float drop-shadow-2xl"
               />
             </div>
