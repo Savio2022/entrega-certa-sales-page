@@ -443,13 +443,13 @@ function LandingPage() {
       {/* Footer */}
       <footer className="bg-hero text-primary-foreground py-10">
         <div className="container mx-auto px-4 text-center space-y-2">
-          <div className="font-black text-xl">Organic Sier</div>
+          <div className="font-black text-xl">Organic Care</div>
           <p className="text-sm opacity-80 max-w-md mx-auto">
-            Tratamento capilar natural. Pagamento somente na entrega. Frete grátis para todo o
+            Condicionador fortalecedor natural. Pagamento somente na entrega. Frete grátis para todo o
             Brasil.
           </p>
           <p className="text-xs opacity-60 pt-4">
-            © {new Date().getFullYear()} Organic Sier. Todos os direitos reservados.
+            © {new Date().getFullYear()} Organic Care. Todos os direitos reservados.
           </p>
         </div>
       </footer>
