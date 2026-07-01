@@ -414,7 +414,7 @@ function LandingPage() {
               },
               {
                 q: "O produto é natural mesmo?",
-                a: "Sim! Organic Sier é formulado com óleos vegetais, biotina e queratina vegetal. Sem parabenos e sem sulfatos agressivos.",
+                a: "Sim! Organic Care é formulado com extratos naturais, biotina e D-pantenol. Sem sal, uso diário e livre de agressores químicos.",
               },
               {
                 q: "Preciso usar por quanto tempo para ver resultado?",
